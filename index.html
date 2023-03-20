@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <center>
+<h1>BMI CALCULATOR</h1>
+<label>Enter Your Height:</label>
+<input type="number" min="1" max="10" placeholder="feet" id="heightInFeet">
+<input type="number" min="0" max="11" placeholder="inch" id="heightInInch">
+<br><br><label>Enter Your Weight In Kgs:</label>
+    <input type="number" min="1" max="200" placeholder="Kgs" id="weightInKgs">
+  <br><br>
+<button type="submit" onclick="bmiconverter()">Calculate</button>
+
+
+<h2 id="finalanswer"></h2>
+<p id="suggestion"></p>
+<p id = "idealWeight"></p>
+<img src="./Images/bmi-chart.gif" height="360px" width="90%"></center>
+    <script src="./app.js">
+
+    </script>
+</body>
+</html>

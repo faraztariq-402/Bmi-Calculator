@@ -1,0 +1,65 @@
+#finalanswer{
+    height: 30px;
+    width: 100%;
+}
+#suggestion{
+    font-size: 20px;
+    font-weight: bold;
+}
+#idealWeight{
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    background-color: bisque;
+}
+label{
+    font-size: 19px;
+    font-weight: bold;
+}
+input{
+    font-size: 1.2rem;
+    height: 30px;
+    width: 5rem;
+    border-radius: 0.5rem;
+}
+button{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    background-color: rgb(150, 148, 151);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px black;
+}
+@media screen and (min-width: 768px){
+    img{
+        height: 500px;
+        width: 75%;
+        border-radius: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    img{
+        height: 400px;
+        width: 85%;
+        border-radius: 1rem;
+        
+    }
+}
+
+    @media screen and (max-width: 400px){
+        img{
+            height: 310px;
+            width: 88%;
+        border-radius: 1rem;
+
+        }
+    }
+    @media screen and (max-width: 350px){
+        input{
+        
+            width: 3.8rem;
+        }
+    }
